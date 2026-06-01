@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  border: 50px solid red;
+  width: 200px;
+  height: 200px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  border-color: green;
+  visibility: hidden;
+}
+.blue {
+  border-color: blue;
+}
